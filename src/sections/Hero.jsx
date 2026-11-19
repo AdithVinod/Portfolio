@@ -66,14 +66,13 @@ function Hero() {
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.25 }}
-              className="text-6xl sm:text-7xl xl:text-8xl font-black tracking-[-0.06em] leading-[0.95]"
+              className="w-full text-[clamp(3.25rem,10vw,8rem)] font-black tracking-[-0.055em] leading-[0.95]"
             >
-              ADITH
-              <br />
-              <span className="text-transparent bg-clip-text bg-linear-to-r from-violet-300 via-purple-400 to-fuchsia-500">
-                VINOD
+              <span className="block whitespace-nowrap">ADITH</span>
+
+              <span className="block whitespace-nowrap text-transparent bg-clip-text bg-linear-to-r from-violet-300 via-purple-400 to-fuchsia-500">
+                VINOD<span className="text-violet-500">.</span>
               </span>
-              <span className="text-violet-500">.</span>
             </motion.h1>
 
             <motion.div
