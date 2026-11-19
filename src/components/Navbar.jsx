@@ -102,7 +102,18 @@ function Navbar() {
                 <motion.a
                   key={link.name}
                   href={link.href}
-                  onClick={() => setMenuOpen(false)}
+                  onClick={() => {
+                    const sectionId = link.href.substring(1);
+
+                    setMenuOpen(false);
+
+                    requestAnimationFrame(() => {
+                      document.getElementById(sectionId)?.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                      });
+                    });
+                  }}
                   initial={{ opacity: 0, x: -10 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: index * 0.04 }}
