@@ -120,7 +120,10 @@ function Skills() {
               </p>
 
               <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tight">
-                Technical <span className="text-violet-400">Skills.</span>
+                Technical{" "}
+                <span className="bg-linear-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
+                  Skills.
+                </span>
               </h2>
             </div>
 

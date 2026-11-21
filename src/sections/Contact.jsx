@@ -72,23 +72,31 @@ function Contact() {
       <div className="relative z-10 mx-auto max-w-6xl">
         {/* Section heading */}
         <Reveal direction="up">
-          <div className="mb-20 text-center">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[5px] text-violet-400">
-              05 / Get In Touch
-            </p>
+          <div className="mb-14 flex items-center gap-4">
+            <span className="shrink-0 whitespace-nowrap font-mono text-sm text-violet-400">
+              05 /
+            </span>
 
-            <h2 className="mb-5 text-4xl font-bold text-white md:text-5xl">
-              Let's Work{" "}
-              <span className="bg-linear-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
-                Together.
-              </span>
-            </h2>
+            <div>
+              <p className="mb-2 text-xs font-semibold uppercase tracking-[4px] text-violet-400">
+                Get In Touch
+              </p>
 
-            <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-400 md:text-base">
-              Have a project in mind or an opportunity to discuss? I'd love to
-              hear from you. Let's connect and create something meaningful.
-            </p>
+              <h2 className="text-4xl font-bold tracking-tight text-white md:text-6xl">
+                Let's Work{" "}
+                <span className="bg-linear-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
+                  Together.
+                </span>
+              </h2>
+            </div>
+
+            <div className="ml-5 hidden h-px flex-1 bg-linear-to-r from-violet-500/40 to-transparent sm:block" />
           </div>
+
+          <p className="mb-14 max-w-2xl text-sm leading-8 text-slate-400 md:text-base">
+            Have a project in mind or an opportunity to discuss? I'd love to
+            hear from you. Let's connect and create something meaningful.
+          </p>
         </Reveal>
 
         <div className="grid items-stretch gap-8 lg:grid-cols-2 lg:gap-12">

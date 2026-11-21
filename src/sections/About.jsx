@@ -75,7 +75,10 @@ function About() {
               </p>
 
               <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tight">
-                About <span className="text-violet-400">Me.</span>
+                About{" "}
+                <span className="bg-linear-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
+                  Me.
+                </span>
               </h2>
             </div>
 

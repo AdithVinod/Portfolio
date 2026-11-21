@@ -22,6 +22,17 @@ body {
   position: relative;
 }
 
+.hero-name {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.001em;
+}
+
+ /* h2, h3, h4, button, a {
+  font-family: "Sora", sans-serif;
+} */
+
+
 /* Subtle animated violet background glow */
 body::before {
   content: "";

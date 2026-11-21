@@ -66,12 +66,13 @@ function Hero() {
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.25 }}
-              className="w-full text-[clamp(3.25rem,10vw,8rem)] font-black tracking-[-0.055em] leading-[0.95]"
+              className="hero-name w-full text-[clamp(3.25rem,10vw,8rem)] font-black tracking-[-0.055em] leading-[0.95]"
             >
               <span className="block whitespace-nowrap">ADITH</span>
 
               <span className="block whitespace-nowrap text-transparent bg-clip-text bg-linear-to-r from-violet-300 via-purple-400 to-fuchsia-500">
-                VINOD<span className="text-violet-500">.</span>
+                VINOD
+                <span className="inline-block h-[0.2em] w-[0.2em] rounded-full bg-fuchsia-500 ml-2 align-baseline" />
               </span>
             </motion.h1>
 

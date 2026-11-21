@@ -70,24 +70,32 @@ function Experience() {
       <div className="relative z-10 mx-auto max-w-6xl">
         {/* Section heading */}
         <Reveal direction="up">
-          <div className="mb-20 text-center">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[5px] text-violet-400">
-              04 / Career Journey
-            </p>
+          <div className="mb-14 flex items-center gap-4">
+            <span className="shrink-0 whitespace-nowrap font-mono text-sm text-violet-400">
+              04 /
+            </span>
 
-            <h2 className="mb-5 text-4xl font-bold text-white md:text-5xl">
-              Experience &{" "}
-              <span className="bg-linear-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
-                Education.
-              </span>
-            </h2>
+            <div>
+              <p className="mb-2 text-xs font-semibold uppercase tracking-[4px] text-violet-400">
+                Career Journey
+              </p>
 
-            <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-400 md:text-base">
-              Every step has contributed to my growth as a developer. Here's a
-              look at my education, practical experience and professional
-              training.
-            </p>
+              <h2 className="text-4xl font-bold tracking-tight text-white md:text-6xl">
+                Experience &{" "}
+                <span className="bg-linear-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
+                  Education.
+                </span>
+              </h2>
+            </div>
+
+            <div className="ml-5 hidden h-px flex-1 bg-linear-to-r from-violet-500/40 to-transparent sm:block" />
           </div>
+
+          <p className="mb-14 max-w-2xl text-sm leading-8 text-slate-400 md:text-base">
+            Every step has contributed to my growth as a developer. Here's a
+            look at my education, practical experience and professional
+            training.
+          </p>
         </Reveal>
 
         {/* Journey introduction */}

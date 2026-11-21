@@ -261,14 +261,19 @@ function Projects() {
       <div className="relative max-w-7xl mx-auto">
         {/* SECTION HEADING */}
         <Reveal direction="up">
-          <div className="flex items-center gap-4 mb-5">
-            <span className="text-violet-400 font-mono text-sm">03 /</span>
+          <div className="flex items-center gap-4 mb-14">
+            <span className="shrink-0 whitespace-nowrap font-mono text-sm text-violet-400">
+              03 /
+            </span>
             <div>
               <p className="text-violet-400 text-xs font-semibold tracking-[4px] uppercase mb-2">
                 Selected work
               </p>
-              <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tight">
-                Featured <span className="text-violet-400">Projects.</span>
+              <h2 className="whitespace-nowrap text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-6xl">
+                Featured{" "}
+                <span className="bg-linear-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
+                  Projects.
+                </span>
               </h2>
             </div>
             <div className="hidden sm:block h-px flex-1 bg-linear-to-r from-violet-500/40 to-transparent ml-5" />
@@ -372,7 +377,8 @@ function Projects() {
                       </div>
 
                       {/* Project links */}
-                      <div className="flex flex-wrap gap-3 pt-6 border-t border-white/10">
+                      {/* <div className="flex flex-wrap gap-3 pt-6 border-t border-white/10"> */}
+                      <div className="flex flex-1  gap-3 whitespace-nowrap ... pt-6 border-t border-white/10">
                         <motion.a
                           href={project.github}
                           target="_blank"
