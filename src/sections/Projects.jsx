@@ -67,9 +67,10 @@ function MarketplacePreview() {
         </div>
       </div>
 
+      {/* <br />
       <div className="absolute bottom-3 right-4 text-[9px] tracking-widest text-gray-600">
         MARKETPLACE UI CONCEPT
-      </div>
+      </div> */}
     </div>
   );
 }
